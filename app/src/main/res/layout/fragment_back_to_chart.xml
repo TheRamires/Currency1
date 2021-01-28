@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="bactToChart"
+            type="com.example.currency3.FragmentBackToChart" />
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".FragmentBackToChart"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="@{bactToChart::backToChart}"
+        >
+        <Button
+            android:gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@color/purple_700"
+            android:background="@drawable/ic_send_black_36dp"
+            android:clickable="false"/>
+        <Button
+            android:gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ToChart"
+            android:background="@android:color/transparent"
+            android:textColor="@color/purple_700"
+            android:textSize="30sp"
+            android:textStyle="italic|bold"
+            android:clickable="false"
+            />
+
+    </LinearLayout>
+</layout>

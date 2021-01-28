@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Search">Search</string>
+    <string name="Chart">Chart</string>
+    <string name="Currency">Currency</string>
+    <string name="ToChart">To chart</string>
+    <string-array name="title">
+        <item>Chart</item>
+        <item>Currency</item>
+    </string-array>
+
+
+</resources>

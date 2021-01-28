@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Валюта</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Search">Поиск</string>
+    <string name="Chart">График</string>
+    <string name="Currency">Валюта</string>
+    <string name="ToChart">К графику</string>
+    <string-array name="title">
+        <item>График</item>
+        <item>Валюта</item>
+    </string-array>
+
+</resources>
