@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".FragmentChart">
+    tools:context="ram.ramires.currency3.FragmentChart">
 
     <fragment
         android:layout_marginVertical="10dp"
         android:id="@+id/fragment_datas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.example.currency3.FragmentDatas"
+        android:name="ram.ramires.currency3.FragmentDatas"
         />
 
     <!-- TODO: Update blank fragment layout -->

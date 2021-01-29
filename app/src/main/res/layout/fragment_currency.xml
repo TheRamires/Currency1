@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/frame"
-    tools:context=".FragmentCurrency">
+    tools:context="ram.ramires.currency3.FragmentCurrency">
 
     <LinearLayout
         android:layout_alignParentTop="true"
@@ -36,7 +36,7 @@
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.example.currency3.FragmentBackToChart"
+        android:name="ram.ramires.currency3.FragmentBackToChart"
         android:id="@+id/toChart"/>
 
 </RelativeLayout>

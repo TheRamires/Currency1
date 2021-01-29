@@ -3,7 +3,7 @@
     <data>
         <variable
             name="item"
-            type="com.example.currency3.pojo.Currency" />
+            type="ram.ramires.currency3.pojo.Currency" />
     </data>
     <LinearLayout
         android:paddingBottom="15dp"
