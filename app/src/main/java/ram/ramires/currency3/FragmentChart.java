@@ -75,7 +75,6 @@ public class FragmentChart extends Fragment implements OnChartValueSelectedListe
         viewModel.liveDataSet.observe(getViewLifecycleOwner(), new Observer<LinkedHashMap<String, Float>>() {
             @Override
             public void onChanged(LinkedHashMap<String, Float> set1) {
-
                 //datas
                 List<String> dates1=new ArrayList<>(set1.keySet());
                 rate1=new ArrayList<>(set1.values());
