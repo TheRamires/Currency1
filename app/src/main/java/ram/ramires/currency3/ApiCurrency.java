@@ -21,4 +21,5 @@ public interface ApiCurrency {
     @GET("convert?apiKey=635c15bac66f5d8a47be&compact=ultra")
     Observable<Map<String, Map<String, Float>>> getSingleData(
             @Query("q") String currency, @Query("date") String date);
+
 }
