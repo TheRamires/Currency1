@@ -18,7 +18,6 @@ import com.google.android.material.tabs.TabLayoutMediator;
 
 public class MainActivity extends AppCompatActivity {
     public static final String LOG="myLog";
-    // Om many padme hum
 
     private Model model;
     private ViewModelCurrency viewModel;
